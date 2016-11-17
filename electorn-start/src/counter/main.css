@@ -1,0 +1,36 @@
+body {
+    background-color: #e4ee76;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, .manual-counter {
+    color: #b869ff;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.start, .start:active, .start::selection {
+    background-color: #b869ff;
+    padding: 1rem 2rem;
+    font-family: Helvetica, arial, sans-serif;
+    color: #EEE;
+    line-height: 100%;
+    vertical-align: middle;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.manual-counter {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 100%;
+    vertical-align: middle;
+}
