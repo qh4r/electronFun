@@ -1,0 +1,20 @@
+body {
+    background-color: #ff5463;
+}
+
+.container {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 98%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #EEE;
+    width: 50%;
+    margin: auto;
+    font-family: Helvetica, arial, sans-serif;
+}
