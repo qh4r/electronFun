@@ -57,6 +57,6 @@ function updateTray(tray, stack) {
 function registerShortcuts(globalShortcut, clipboard, stack) {
     globalShortcut.unregisterAll();
     stack.forEach((item, i) => {
-        globalShortcut.register(`CmdOrCtrl+Alt+${i+1}`, _ => clipboard.writeText(item));
+        globalShortcut.register(`CmdOrCtrl+Alt+${i + 1}`, _ => clipboard.writeText(item));
     });
 }
